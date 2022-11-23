@@ -1,0 +1,26 @@
+{
+    "govToken": {
+        "name": "SKK",
+        "symbol": "SKK",
+        "cap": "50000000000000000000000000000",
+        "owner": "0x0F1D7e6ECFedDf64dbEe0d59aDC9f6a6923E5A0a"
+    },
+
+    "gameTokens": [{
+        "name": "SKS",
+        "symbol": "SKS",
+        "owner": "0x32645003Cb69DeA779c742dB07C152cEFbEaA1de"
+    }],
+
+    "gameNFTs": [{
+        "name": "GNFT",
+        "symbol": "GNFT",
+        "mintAdmins": ["0x0F1D7e6ECFedDf64dbEe0d59aDC9f6a6923E5A0a"],
+        "owner":"0x0F1D7e6ECFedDf64dbEe0d59aDC9f6a6923E5A0a"
+    }],
+
+    "gameVault": {
+        "withdrawAdmins": ["0x0F1D7e6ECFedDf64dbEe0d59aDC9f6a6923E5A0a"],
+        "owner": "0x0F1D7e6ECFedDf64dbEe0d59aDC9f6a6923E5A0a"
+    }
+}
