@@ -80,6 +80,16 @@ module.exports = {
             skipDryRun: false,
             networkCheckTimeout: 600000000,
             websockets: false
+        },
+        goerli: {
+            provider: () => new HDWalletProvider(testMnemonic, process.env.goerli_nodeUrl),
+            network_id: "5",
+            timeoutBlocks: 60000000,
+            //confirmations: 2,
+            gasPrice: 24379852193,
+            skipDryRun: false,
+            networkCheckTimeout: 600000000,
+            websockets: false
         }
     },
 
@@ -125,6 +135,7 @@ module.exports = {
     // }
     plugins: ['truffle-plugin-verify'],
     api_keys: {
-      bscscan: process.env.bscscan_apikey
+      bscscan: process.env.bscscan_apikey,
+      goerli: process.env.ethscan_apikey,
     }
 };

@@ -20,5 +20,8 @@
     "SKK": "0x5f70dbebBEF31f7092e0eFb197BF0793CacB83Bf",
     "DGNFT": "0x285064feE1E47F4AB98e60f15eC370A79E743AD4",
     "GameVault": "0x0b24EB2a8d1C33314Fa1Fa1f1091819ef28BF2Fd"
+  },
+  "goerli-fork": {
+    "SKS": "0x5f70dbebBEF31f7092e0eFb197BF0793CacB83Bf"
   }
 }
